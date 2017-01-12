@@ -1,0 +1,193 @@
+/*over rides from main.css files*/
+
+body {background-color: #edeef0;}
+
+
+#menuToggle {
+        background: rgba(100, 100, 100, .2);
+}
+
+    #menuToggle:hover {
+        background: rgba(100, 100, 100, .5);
+    }
+
+
+#headerwrap h2 {text-transform: initial; font-size: 40px}
+
+#headerwrap h3 {color: #fff}
+
+
+#headerwrap {min-height: 200px !important}
+
+#headerwrap .spacer {margin-top: 100px}
+
+a {color:#009fd9}
+
+/*a {color:#ff7878}*/
+
+#r {background-color: #009fd9}
+
+
+.desc i {
+color: #009fd9;
+}
+
+#next:hover:before, #next:hover:after, #next:focus:before, #next:focus:after, #prev:hover:before, #prev:hover:after, #prev:focus:before, #prev:focus:after {
+background: #009fd9}
+
+
+#f i:hover {
+    color: #009fd9;
+}
+
+/* end overrides from main.css files*/
+
+
+/*over rides from main-frolinktemplate*/
+/*
+hr {margin: 2em 0}*/
+
+/* end over rides from main-frolinktemplate*/
+
+
+.headers h1 {text-align: center;}
+
+
+.menu a>i {font-size: 20px; margin: 0px 6px;}
+
+.menu h1.logo a:hover {color: #ff7878}
+
+
+
+
+/*resume page*/
+
+.resume-white p {color: #fff !important; font-size: 16px !important; line-height: 24px;} 
+
+.resume p {color: #555 !important; font-size: 16px !important; line-height: 24px; margin-bottom: 10px} 
+
+.resume {padding: 0 0 35px 0}
+
+.resume hr {margin: 2em 0}
+
+.resume .row {padding: 25px 0}
+
+.resume ul li {margin-bottom: 12px}
+
+
+/* / resume page */
+
+
+
+
+
+/* logo */
+
+.logo-circle {
+    margin: 55px auto 0 auto;
+    border-radius: 50%;
+
+    height: 75px;
+    width: 75px;
+    padding: 4px;
+    
+    background: rgba(0, 159, 217, 0.5);
+    border: 8px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    text-align: center;
+    
+    font: 50px "Rokkitt", Arial, sans-serif;
+    font-weight: 700;
+}   
+
+
+/*back to top*/
+
+
+#toTop {
+    z-index: 100;
+        /*background:#f7f7f7;*/
+        text-align:center;
+        /*padding:5px;*/
+        position:fixed; /* this is the magic */
+        bottom:10px; /* together with this to put the div at the bottom*/
+        right:5px;
+        cursor:pointer;
+        display:none;
+        color:rgba(0, 0, 0, 0.2);
+        font-family:verdana;
+        font-size:11px;
+/*        width: 100px;
+        height: 100px*/
+}
+
+
+
+/*footer*/
+
+.footer-padding-right {
+    padding-right: 40px;
+}
+
+
+.class {margin-left: 20px;
+    color: gray;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    }
+
+
+
+/* media queries */
+
+ 
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    .footer-padding-right {
+        padding-right: 30px !important;
+    }
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+
+h4 {margin-top: 30px}
+
+ }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
