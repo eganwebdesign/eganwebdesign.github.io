@@ -12,14 +12,14 @@ body {background-color: #edeef0;}
     }
 
 
-#headerwrap h2 {text-transform: initial; font-size: 40px}
+#headerwrap h2 {text-transform: initial; font-size: 45px; margin-top:10%}
 
-#headerwrap h3 {color: #fff}
+#headerwrap h3 {color: #fff; margin-bottom:10%}
 
 
 #headerwrap {min-height: 200px !important}
 
-#headerwrap .spacer {margin-top: 100px}
+#headerwrap .spacer {margin-top: 50px}
 
 a {color:#009fd9}
 
@@ -176,18 +176,3 @@ and (orientation : portrait) {
 h4 {margin-top: 30px}
 
  }
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
