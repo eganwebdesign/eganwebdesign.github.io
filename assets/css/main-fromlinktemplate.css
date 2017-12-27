@@ -8,7 +8,7 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Raleway;
+    font-family: 'Nunito Sans', sans-serif;;
     font-weight: 300;
     color: #333;
 }
@@ -36,7 +36,7 @@ a {
     transition: color .1s ease-in, background .1s ease-in;
 }
 a:hover, a:focus {
-    color: #7b7b7b;
+    color: #fff;
     text-decoration: none;
     outline: 0;
 }
@@ -90,13 +90,13 @@ hr {
     position: absolute;
     top: 0;
     left: 60px;
-    background: #1a1a1a;
+    background: #2d353f;
     width: 200px;
-    height: 100%}
+    height: 300px}
 .menu h1.logo a {
-    font-family: Raleway, Helvetica, Arial, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: .15em;
     line-height: 40px;
     text-transform: uppercase;
@@ -112,7 +112,7 @@ hr {
 }
 .menu a {
     margin-left: 20px;
-    color: gray;
+    color: #edeef0;
     display: block;
     font-size: 12px;
     font-weight: 700;
@@ -121,10 +121,10 @@ hr {
     text-transform: uppercase;
 }
 .menu a:hover {
-    color: #fff;
+    color: #23d366;
 }
 .menu a:active {
-    color: #fff;
+    color: #23d366;
 }
 .menu a>i {
     float: left;
@@ -209,8 +209,9 @@ hr {
     transition: all .1s ease-in-out;
 }
 #headerwrap {
-    background: url(../img/black-wallpaper-background-download-wallpaper-colour-images-black-hd-wallpaper.jpg) no-repeat center top;
+    /* background: url(../img/black-wallpaper-background-download-wallpaper-colour-images-black-hd-wallpaper.jpg) no-repeat center top; */
     /*background: url(../img/black-wallpaper-background-download-wallpaper-colour-images-black-hd-wallpaper.png) no-repeat center top;    */
+    background-color: #2d353f;
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;

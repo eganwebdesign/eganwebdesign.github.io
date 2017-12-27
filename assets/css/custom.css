@@ -12,9 +12,9 @@ body {background-color: #edeef0;}
     }
 
 
-#headerwrap h2 {text-transform: initial; font-size: 45px; margin-top:10%}
+#headerwrap h2 {text-transform: initial; font-size: 35px; margin-top:10%; color:#23d366; font-family: 'Nunito Sans', sans-serif;font-weight: 900}
 
-#headerwrap h3 {color: #fff; margin-bottom:10%}
+#headerwrap h3 {color: #fff; margin-bottom:10%; font-family: 'Nunito Sans', sans-serif;font-weight: 300; letter-spacing: 3px}
 
 
 #headerwrap {min-height: 200px !important}
@@ -25,7 +25,7 @@ a {color:#009fd9}
 
 /*a {color:#ff7878}*/
 
-#r {background-color: #009fd9}
+#r {background-color: #2D3540}
 
 
 .desc i {
@@ -62,9 +62,9 @@ hr {margin: 2em 0}*/
 
 /*resume page*/
 
-.resume-white p {color: #fff !important; font-size: 16px !important; line-height: 24px;} 
+.resume-white p {color: #fff !important; font-size: 16px !important; line-height: 24px;}
 
-.resume p {color: #555 !important; font-size: 16px !important; line-height: 24px; margin-bottom: 10px} 
+.resume p {color: #555 !important; font-size: 16px !important; line-height: 24px; margin-bottom: 10px}
 
 .resume {padding: 0 0 35px 0}
 
@@ -90,15 +90,15 @@ hr {margin: 2em 0}*/
     height: 75px;
     width: 75px;
     padding: 4px;
-    
+
     background: rgba(0, 159, 217, 0.5);
     border: 8px solid rgba(255, 255, 255, 0.5);
     color: #fff;
     text-align: center;
-    
+
     font: 50px "Rokkitt", Arial, sans-serif;
     font-weight: 700;
-}   
+}
 
 
 /*back to top*/
@@ -131,7 +131,7 @@ hr {margin: 2em 0}*/
 
 
 .class {margin-left: 20px;
-    color: gray;
+    color: #edeef0;
     display: block;
     font-size: 12px;
     font-weight: 700;
@@ -141,17 +141,65 @@ hr {margin: 2em 0}*/
     }
 
 
+/*view button*/
+
+.hvr-icon-wobble-horizontal {
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px transparent;
+position: relative;
+padding-right: 2.2em;
+margin-top: 15px;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+
+/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+-webkit-border-radius: 10px;
+
+/* Firefox 1-3.6 */
+-moz-border-radius: 10px;
+
+/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+border-radius: 10px;
+}
+
+
+.hvr-icon-wobble-horizontal:before {
+    content: "\f061";
+    position: absolute;
+    right: -.5em;
+    left: 3.5em;
+    padding: 0 1px;
+    font-family: FontAwesome;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
+[class^="hvr-"] {
+        margin: .4em .4em .4em 0em;
+        padding: .2em 5em .3em 1em ;
+        cursor: pointer;
+        background: #23d366;
+        text-decoration: none;
+        color: #fff;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
 
 /* media queries */
 
- 
+
 
 
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : landscape) {
     .footer-padding-right {
         padding-right: 30px !important;
@@ -161,16 +209,16 @@ and (orientation : landscape) {
 
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : portrait) {
 /* Styles */
 }
 
- 
+
 /* Landscape phones and down */
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
 
 
 h4 {margin-top: 30px}
