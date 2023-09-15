@@ -12,7 +12,7 @@ body {background-color: #edeef0;}
     }
 
 
-#headerwrap h2 {text-transform: initial; font-size: 35px; margin-top:10%; color:#23d366; font-family: 'Nunito Sans', sans-serif;font-weight: 900}
+#headerwrap h2 {text-transform: initial; font-size: 35px; margin-top:10%; color:#ff8c00; font-family: 'Nunito Sans', sans-serif;font-weight: 900}
 
 #headerwrap h3 {color: #fff; margin-bottom:10%; font-family: 'Nunito Sans', sans-serif;font-weight: 300; letter-spacing: 3px}
 
@@ -181,7 +181,7 @@ border-radius: 10px;
         margin: .4em .4em .4em 0em;
         padding: .2em 5em .3em 1em ;
         cursor: pointer;
-        background: #23d366;
+        background: #ff8c00;
         text-decoration: none;
         color: #fff;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
