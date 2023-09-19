@@ -121,10 +121,10 @@ hr {
     text-transform: uppercase;
 }
 .menu a:hover {
-    color: #23d366;
+    color: #ff8c00;
 }
 .menu a:active {
-    color: #23d366;
+    color: #ff8c00;
 }
 .menu a>i {
     float: left;
